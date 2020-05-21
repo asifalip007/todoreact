@@ -93,8 +93,13 @@ export class AddTask extends Component {
     }
     deleteItems = (key) => {
         const filtered = this.state.tasklist.filter((item) => item.id !== key);
+        let all = this.state.allCheck;
+        if (filtered.length === 0){
+            all = false
+        }
         this.setState({
-            tasklist: filtered
+            tasklist: filtered,
+            allCheck: all
         })
     }
     taskEdit = (value, key) => {
