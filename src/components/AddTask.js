@@ -79,7 +79,7 @@ export class AddTask extends Component {
         e.preventDefault()
         const newitem = this.state.currenttask;
         if (newitem.value !== '') {
-            const newitems = [newitem, ...this.state.tasklist]
+            const newitems = [...this.state.tasklist, newitem]
             this.setState({
                 tasklist: newitems,
                 currenttask: {
