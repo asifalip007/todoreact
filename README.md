@@ -1,7 +1,7 @@
 # Todo React App
 
 ## Github Page
-The app is deployed on Github Page and is live at <a href="https://asifalip007.github.io/todoreact/" target="_blank">https://asifalip007.github.io/todoreact/</a>.
+The app is deployed on Github Page. Click on the link to view the app: <a href="https://asifalip007.github.io/todoreact/" target="_blank">Todo List</a>.
 
 ## Project Description
 This project is a Todo App.(Only front-end)
