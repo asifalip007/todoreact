@@ -1,4 +1,4 @@
-#Todo React App
+##Todo React App
 
 This project is a Todo App.(Only front-end)
 
